@@ -1,0 +1,2 @@
+# Create a user and add to the wheel group
+ansible -i env.hosts -b -m user -a "name=username append =yes groups=wheel" all
